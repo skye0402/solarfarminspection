@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-12T05:44:07.754Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="CvRMl1f4P90krNCcXBSb" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-12T05:50:03.594Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="hHOtXv9oojMJPMar9_zM" version="20.5.3" type="github">
   <diagram id="E-e3KwMroLkpFgQxAOJb" name="Page-1">
-    <mxGraphModel dx="1093" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1597" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,13 +104,56 @@
           <mxGeometry x="112.5" y="610" width="65" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wNg4vTcNRbUfcR5iuGJv-35" value="&lt;h3&gt;SAP Analytics Cloud&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="250" y="630" width="140" height="130" as="geometry" />
+          <mxGeometry x="280" y="630" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="wNg4vTcNRbUfcR5iuGJv-37" value="HANA live" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;" edge="1" parent="1" source="wNg4vTcNRbUfcR5iuGJv-36" target="wNg4vTcNRbUfcR5iuGJv-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wNg4vTcNRbUfcR5iuGJv-36" value="Dashboard for evaluation of data (tbd)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="270" y="650" width="95" height="95" as="geometry" />
+          <mxGeometry x="302.5" y="647.5" width="95" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-39" value="&lt;h3&gt;SAP Build Apps&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="30" y="840" width="630" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="wNg4vTcNRbUfcR5iuGJv-40" target="wNg4vTcNRbUfcR5iuGJv-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-40" value="Mobile app to read open maintenance requests and display them on map" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="50" y="853" width="95" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-41" value="To be defined" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="wNg4vTcNRbUfcR5iuGJv-40" target="wNg4vTcNRbUfcR5iuGJv-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280.0399999999998" y="780" as="sourcePoint" />
+            <mxPoint x="155.03999999999976" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wNg4vTcNRbUfcR5iuGJv-42" target="wNg4vTcNRbUfcR5iuGJv-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="901" />
+              <mxPoint x="460" y="687" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-42" value="User to navigate to open MR and close it by app" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="185" y="853" width="95" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wNg4vTcNRbUfcR5iuGJv-45" target="wNg4vTcNRbUfcR5iuGJv-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-45" value="Close MR" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="522.5" y="640" width="95" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-48" value="Set status of MR in HANA" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;" edge="1" parent="1" source="wNg4vTcNRbUfcR5iuGJv-47" target="wNg4vTcNRbUfcR5iuGJv-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="567" y="790" />
+              <mxPoint x="145" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-47" value="Update data" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="853" width="95" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
