@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-12T05:17:23.485Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="7LE4b-LjGF5apDRkrK23" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-12T05:44:07.754Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="CvRMl1f4P90krNCcXBSb" version="20.5.3" type="github">
   <diagram id="E-e3KwMroLkpFgQxAOJb" name="Page-1">
-    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1093" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,25 +11,106 @@
           <mxGeometry x="50" y="77.5" width="190" height="95" as="geometry" />
         </mxCell>
         <mxCell id="wNg4vTcNRbUfcR5iuGJv-6" value="&lt;h3&gt;SAP BTP Kyma&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="375" y="60" width="415" height="280" as="geometry" />
+          <mxGeometry x="40" y="230" width="415" height="350" as="geometry" />
         </mxCell>
         <mxCell id="wNg4vTcNRbUfcR5iuGJv-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wNg4vTcNRbUfcR5iuGJv-4" target="wNg4vTcNRbUfcR5iuGJv-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wNg4vTcNRbUfcR5iuGJv-4" value="REST Service&lt;br&gt;Receive time stamp and position of drone." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;" vertex="1" parent="1">
-          <mxGeometry x="390" y="77.5" width="95" height="95" as="geometry" />
+          <mxGeometry x="55" y="247.5" width="95" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="wNg4vTcNRbUfcR5iuGJv-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wNg4vTcNRbUfcR5iuGJv-3" target="wNg4vTcNRbUfcR5iuGJv-4">
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-7" value="TS&lt;br&gt;XY-Position" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wNg4vTcNRbUfcR5iuGJv-3" target="wNg4vTcNRbUfcR5iuGJv-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wNg4vTcNRbUfcR5iuGJv-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wNg4vTcNRbUfcR5iuGJv-8" target="wNg4vTcNRbUfcR5iuGJv-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wNg4vTcNRbUfcR5iuGJv-8" value="Identify &quot;best&quot; (closest) picture in dataset for drone position." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;" vertex="1" parent="1">
-          <mxGeometry x="535" y="77.5" width="95" height="95" as="geometry" />
+          <mxGeometry x="200" y="247.5" width="95" height="95" as="geometry" />
         </mxCell>
         <mxCell id="wNg4vTcNRbUfcR5iuGJv-11" value="Send picture to AI model to retrieve soiling %" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;" vertex="1" parent="1">
-          <mxGeometry x="660" y="77.5" width="95" height="95" as="geometry" />
+          <mxGeometry x="325" y="247.5" width="95" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-14" value="&lt;h3&gt;AI Core&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="500" y="230" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-15" value="AI Model:&lt;br&gt;receive picture.&lt;br&gt;Send soiling %&lt;br&gt;(0.0-1.0) float" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="247.5" width="95" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;" edge="1" parent="1" source="wNg4vTcNRbUfcR5iuGJv-19" target="wNg4vTcNRbUfcR5iuGJv-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-19" value="Store event for analysis: Timestamp, position, image key, soiling, MR #, MR status, MR priority" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="120" y="397.5" width="95" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-20" value="&lt;h3&gt;S/4HANA Cloud&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="500" y="480" width="415" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="wNg4vTcNRbUfcR5iuGJv-21" target="wNg4vTcNRbUfcR5iuGJv-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-30" value="MR created" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="wNg4vTcNRbUfcR5iuGJv-29">
+          <mxGeometry x="-0.3488" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-21" value="Create Maintenance request with picture attached to MR." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="522.5" y="500" width="95" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.94;exitY=0.481;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="wNg4vTcNRbUfcR5iuGJv-24" target="wNg4vTcNRbUfcR5iuGJv-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="440.0666666666666" as="sourcePoint" />
+            <mxPoint x="610" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="440" />
+              <mxPoint x="570" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-25" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wNg4vTcNRbUfcR5iuGJv-22">
+          <mxGeometry x="-0.3903" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-28" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wNg4vTcNRbUfcR5iuGJv-24" target="wNg4vTcNRbUfcR5iuGJv-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-24" value="&lt;span style=&quot;text-align: left;&quot;&gt;Configurable logic:&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;e.g. if &amp;gt;30% Maintenance Request prio low&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;if &amp;gt;50% prio med&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="380" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="wNg4vTcNRbUfcR5iuGJv-15" target="wNg4vTcNRbUfcR5iuGJv-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="417.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="568" y="370" />
+              <mxPoint x="345" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-31" value="% of soiling" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="wNg4vTcNRbUfcR5iuGJv-23">
+          <mxGeometry x="-0.0067" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wNg4vTcNRbUfcR5iuGJv-11" target="wNg4vTcNRbUfcR5iuGJv-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-32" value="Image" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="wNg4vTcNRbUfcR5iuGJv-16">
+          <mxGeometry x="-0.2575" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-33" value="HANA Cloud" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=11;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="112.5" y="610" width="65" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-35" value="&lt;h3&gt;SAP Analytics Cloud&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="250" y="630" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-37" value="HANA live" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;" edge="1" parent="1" source="wNg4vTcNRbUfcR5iuGJv-36" target="wNg4vTcNRbUfcR5iuGJv-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wNg4vTcNRbUfcR5iuGJv-36" value="Dashboard for evaluation of data (tbd)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="270" y="650" width="95" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
